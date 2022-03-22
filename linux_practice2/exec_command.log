@@ -1,0 +1,190 @@
+    1  ls /
+    2  ls /usr
+    3  pwd
+    4  cd /root
+    5  pwd
+    6  cd /root
+    7  cd usr
+    8  cd /usr
+    9  cd /home
+   10  mkdir test1
+   11  ls
+   12  cd /home
+   13  mkdir test2/test3
+   14  cd /home
+   15  mkdir -p test2/test3
+   16  ls test2
+   17  cd /home
+   18  touch test1/index.php
+   19  ls test1
+   20  cd /home/test1 && ls
+   21  cd /home/test1
+   22  cp index.php copy.php
+   23  ls
+   24  cd /home
+   25  cp -r test1 test4
+   26  ls
+   27  ls test4
+   28  cd /home
+   29  mv test2/test3 test3
+   30  ls
+   31  cd /home
+   32  mv test4 test1_copy
+   33  ls
+   34  cd /home
+   35  ls test1
+   36  rm test1/copy.php
+   37  cd /home
+   38  rm -r test3
+   39  cd /home
+   40  rm test1_copy/*.php
+   41  rm test1_copy/*.php
+   42  echo
+   43  cd /home
+   44  echo '# Hello World' > README.md
+   45  cat README.md
+   46  echo '# Server Lesson' > README.md
+   47  cat README.md
+   48  cd /home
+   49  echo 'Linux Practice' >> README.md
+   50  echo '-----------------' >> README.md
+   51  cat README.md
+   52  cd /home
+   53  vi README.md
+   54  vi README.md
+   55  cd /root
+   56  mkdir server_lesson && cd server_lesson
+   57  yum update -y && yum -y install git
+   58  git version
+   59  git init
+   60  touch first.txt
+   61  ls
+   62  cd server_lesson
+   63  cd ..
+   64  ls
+   65  cd server_lesson
+   66  mkdir ディ public
+   67  ls
+   68  cd public
+   69  touch index.php
+   70  ls
+   71  cp index.php index_bk.php
+   72  ls
+   73  cd /home
+   74  ls
+   75  cd /root
+   76  ls
+   77  ls la
+   78  cd server_lesson
+   79  ls
+   80  ls -a
+   81  mkdir server_lesson/linux_practice1
+   82  ls
+   83  ls
+   84  cd ??????
+   85  ls
+   86  cd ..
+   87  mkdir linux_practice1
+   88  ls
+   89  mv public linux_practice1/public
+   90  ls
+   91  cd linux_practice1
+   92  ls
+   93  cd public
+   94  ls
+   95  cd ..
+   96  cp public tmp
+   97  ls
+   98  cd public
+   99  ls
+  100  cp -r public tmp
+  101  cd ..
+  102  cp -r public tmp
+  103  ls
+  104  rm /tmp/index_bk.php
+  105  cd tmp
+  106  ls
+  107  cd ..
+  108  rm tmp/index_bk.php
+  109  cd tmp
+  110  ls
+  111  cd ..
+  112  cd ..
+  113  ls
+  114  vi README.md
+  115  ls
+  116  vi README.md
+  117  vi README.md
+  118  git add .
+  119  git status
+  120  mkdir linux_practice2
+  121  ls
+  122  mkdir linux_practice2/documents
+  123  ls
+  124  cd linux_practice2/documents
+  125  touch gizumo{01..50}.md
+  126  ls
+  127  cd ..
+  128  mkdir trash
+  129  ls
+  130  cd documents
+  131  mv gizumo{20..40}.md trash
+  132  mv gizumo20 trash
+  133  mv gizumo20.md gizumo21.md gizumo22.md gizumo23.md trash
+  134  mv gizumo20.md gizumo21.md gizumo22.md gizumo23.md trash/.
+  135  mv -r  gizumo20.md gizumo21.md gizumo22.md gizumo23.md trash/.
+  136  ls
+  137  cd ..
+  138  ls
+  139  cd trash
+  140  ls
+  141  cd ..
+  142  mv gizumo20.md gizumo21.md gizumo22.md gizumo23.md /trash
+  143  mv documents/gizumo20.md linux_practice2/trash/.
+  144  mv documents/gizumo20.md linux_practice2/trash
+  145  mv documents/gizumo20.md trash
+  146  cd documents
+  147  ls
+  148  mv gizumo2*.md trash
+  149  cd ..
+  150  mv documents/gizumo2*.md trash
+  151  mv documents/gizumo3*.md trash
+  152  cd documents
+  153  ls
+  154  mv documents/gizumo40.md trash
+  155  cd ..
+  156  mv documents/gizumo40.md trash
+  157  cd trash
+  158  ls
+  159  cd
+  160  cd linux_practice2
+  161  ls
+  162  cd server_lesson/linux_practice2
+  163  touch .gitignore
+  164  ls
+  165  ls la
+  166  ls -la
+  167  ls -l
+  168  ls -a
+  169  ls
+  170  ls -a
+  171  cd ..
+  172  ls
+  173  ls -a
+  174  ls -1
+  175  cd linux_paractice2/.gitignore
+  176  cd linux_practice2/.gitignore
+  177  cd linux_practice2
+  178  ls -a
+  179  cd .gitignore
+  180  vi .gitignore
+  181  ls -a
+  182  history 300
+  183  echo history 300 exec_command.log
+  184  echo history 300 > exec_command.log
+  185  ls
+  186  echo exec_command.log
+  187  cd  exec_command.log
+  188  cd  exec_command.log
+  189  cat exec_command.log
+  190  history 300 > exec_command.log
