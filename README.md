@@ -1,4 +1,4 @@
-jkhl:w
+
 - pwd  
 - cd
 - mkdir
@@ -6,5 +6,5 @@ jkhl:w
 - cp
 - mv
 - rm
-- vi
+
 
